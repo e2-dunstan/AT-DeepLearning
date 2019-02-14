@@ -81,7 +81,7 @@ def sparse_to_rgb(sparse_arr):
 def draw_sketch():
     pygame.surfarray.blit_array(input_window_surface, rgb_array)
     pygame.transform.scale(input_window_surface, (subwindow_width, subwindow_height), input_window)
-    pygame.draw.rect(window, (0, 0, 0), (border_offset, border_offset, subwindow_width, subwindow_height), 1)
+    pygame.draw.rect(window, (83, 83, 255), (border_offset, border_offset, subwindow_width, subwindow_height), 1)
 
 
 #Main loop

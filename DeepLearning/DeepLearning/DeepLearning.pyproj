@@ -22,7 +22,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DeepLearning.py" />
+    <Compile Include="edge_detection.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="sketch.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="train_me.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
