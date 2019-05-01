@@ -1,1 +1,2 @@
-# AT-DeepLearning
+# Building texture generation from a sketch using a convolutional neural network
+To run, open the sketch.py file in a terminal. Draw by holding left click, press right click to clear and "S" to save an image to the Sketches folder.
