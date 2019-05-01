@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:516b5c1eb1112bccb0b3f58587685eb889aa723150fa2d292dee945468f8e3fb
-size 206
+[global]
+floatX=float32
+device=cuda
+
+[nvcc]
+compiler_bindir=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+
+[dnn]
+enabled=True
+include_path=C:\CUDA\v8.0\include
+library_path=C:\CUDA\v8.0\lib\x64

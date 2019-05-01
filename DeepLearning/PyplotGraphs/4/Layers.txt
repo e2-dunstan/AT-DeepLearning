@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bf26bb0d31dcb0481d051273f12c15c185a7b3c4c88223593ef41c52bfb4f15c
-size 44
+12 conv2d
+12 activation (1 sigmoid, 11 relu)
