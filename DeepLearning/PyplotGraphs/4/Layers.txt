@@ -1,2 +1,0 @@
-12 conv2d
-12 activation (1 sigmoid, 11 relu)
